@@ -1,5 +1,22 @@
 # sweetcandy233.github.io
-`月光还是少年的月光，九州一色还是李白的霜`
+`众生予我掌声，却未予我身份。`
 <!-- ![梦翔文海](http://user-assets.sxlcdn.com/images/493721/Fo3tNu__WxWq3wop-0cW2-P90UgA.png '梦翔文海') -->
 
-SkyblockAddons v1.5.2 [下载](https://biscuit.codes/mods/skyblockaddons/downloadversion/?v=1.5.2 "下载") (2020.07.07 发布)
+SkyblockAddons v1.5.3 [下载](https://biscuit.codes/mods/skyblockaddons/downloadversion/?v=1.5.3 "下载") (2020.09.17 发布)
+
+`v1.5.3 更新内容`
+
+1. 改进
+- 改进：夜视护符闪烁效果
+- 在洗炼整个护符包时可以使用洗炼菜单了(高级洗炼时不会再显示此菜单)
+- 改进：附魔/洗炼 名称显示
+- 改进：药水效果显示
+
+2. bug 修复
+- 修复：物品稀有度检测
+- 修复：在地下城内无法检测当前位置（Discord RPC）
+- 修复：服务器语言为繁体中文时 sba 失效
+- 修复：隐藏骷髅帽子的骨头特效时掉落物也被隐藏
+- 修复：服务器语言非英语时获取技能经验导致崩溃
+- 修复：NPC 位置与新大厅不对应（现在可以自动检测了）
+- 修复：Jumbo backpack 未被开启时显示没有空槽位
