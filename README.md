@@ -1,8 +1,22 @@
 # sweetcandy233.github.io
-`众生予我掌声，却未予我身份。`
+`所有为你而行的空幻梦想，都不及最后与你许下的愿望。`
 <!-- ![梦翔文海](http://user-assets.sxlcdn.com/images/493721/Fo3tNu__WxWq3wop-0cW2-P90UgA.png '梦翔文海') -->
 
-SkyblockAddons v1.5.3 [下载](https://biscuit.codes/mods/skyblockaddons/downloadversion/?v=1.5.3 "下载") (2020.09.17 发布)
+SkyblockAddons v1.5.4 [下载](https://biscuit.codes/mods/skyblockaddons/downloadversion/?v=1.5.4 "下载") (2020.09.21 发布)
+
+`v1.5.4 更新内容`
+
+1. 改进
+- 改进：背包预览
+- 改进：增加对新稀有度的识别
+
+2. bug 修复
+- 修复：在有地图的物品栏上点击会导致游戏崩溃
+- GUI 修复：更改窗口大小时搜索栏的位置问题
+- GUI 修复：无法使用 `Ctrl + A` 来全选搜索栏中的文本
+- 修复：功能被禁用时播放按钮点击音
+- 修复：更改窗口大小时文本变淡
+- 修复：背包冻结预览在紧凑模式时失效
 
 `v1.5.3 更新内容`
 
