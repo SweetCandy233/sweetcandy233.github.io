@@ -1,0 +1,132 @@
+
+
+trigger chat(Sending to server {string[serverid]}...) {
+  cancel
+  chat {msg}.replace(Sending to server {string[serverid]}...,正在前往{string[serverid]}...)
+  end
+}
+trigger chat(Warping you to your SkyBlock island...) {
+  cancel
+  chat {msg}.replace(Warping you to your SkyBlock island...,正在将你传送至私人岛屿...)
+  end
+}
+trigger chat(Warping you to the hub island...) {
+  cancel
+  chat {msg}.replace(Warping you to the hub island...,正在将你传送至大厅岛屿...)
+  end
+}
+trigger chat(Welcome to Hypixel SkyBlock!) {
+  cancel
+  chat {msg}.replace(Welcome to ,欢迎来到).replace(Hypixel SkyBlock,Hypxiel空岛生存)
+  end
+}
+trigger chat(RARE DROP! {string[x]}) {
+  cancel
+  chat {msg}.replace(RARE DROP!,稀有掉落！).replace(Summoning Eye,召唤之眼).replace(Enchanted Ender Pearl,附魔末影珍珠).replace(Magic Find,魔法搜寻).replace(Enchanted Eye of Ender,附魔末影之眼).replace(Enchanted Obsidian,附魔黑曜石).replace(Enchanted End Stone,附魔末地石).replace(Enchanted Bone,附魔骨头).replace(Enchanted Book,附魔书)
+  end
+}
+trigger chat([Important] This server will restart soon: {string[x]}) {
+  cancel
+  chat {msg}.replace([Important],[重要消息]).replace(This server will restart soon: ,此服务器即将重启：).replace(Scheduled Reboot,定时重启).replace(For a game update,游戏更新)
+  end
+}
+trigger chat(There are blocks in the way!) {
+  cancel
+  chat {msg}.replace(There are blocks in the way!,路径中有方块阻挡！)
+  end
+}
+trigger chat({string[spaces]}{string[x]} dealt the final blow.) {
+  cancel
+  chat {msg}.replace({string[x]} dealt the final blow.,{string[x]}完成了最后一击。)
+  end
+}
+trigger chat(You can't use this while in combat!) {
+  cancel
+  chat {msg}.replace(You can't use this while in combat!,战斗时无法使用！)
+  end
+}
+trigger chat({string[spaces]}Your Damage: {string[amount]} (Position #{string[x]})) {
+  cancel
+  chat {msg}.replace(Your Damage:,造成伤害：).replace(NEW RECORD!,新纪录！).replace(Position,排名)
+  end
+}
+trigger chat(Your inventory is full!) {
+  cancel
+  chat {msg}.replace(Your inventory is full!,你的物品栏已满！)
+  end
+}
+trigger chat(Bid of {string[amount]} placed for {string[x]}!) {
+  cancel
+  chat {msg}.replace(Bid of ,拍卖价：).replace(placed for,物品：).replace(!, )
+  end
+}
+trigger chat(Processing bid...) {
+  cancel
+  chat {msg}.replace(Processing bid...,处理拍卖中...)
+  end
+}
+trigger chat(There was an error with the auction house! ({string[x]})) {
+  cancel
+  chat {msg}.replace(There was an error with the auction house! ,拍卖行出现了一些小问题...)
+  end
+}
+trigger chat(You received {string[amount]} coins!) {
+  cancel
+  chat {msg}.replace(You received ,你获得了)
+  end
+}
+trigger chat(Warping...) {
+  cancel
+  chat {msg}.replace(Warping...,正在传送...)
+  end
+}
+trigger onChat(all chat) {
+  if {msg}.contains(Candy__Sweet)
+    cancel
+    chat {msg}.replace(Candy__Sweet,Summertime_Gone*)
+  end
+}
+trigger chat({string[player]} healed you for {string[amount]} health!) {
+  cancel
+  chat {msg}.replace( healed you for {string[amount]} health!,为你回复了{string[amount]}点生命值！)
+  end
+}
+trigger chat(You do not have enough mana to do this!) {
+  cancel
+  chat {msg}.replace(You do not have enough mana to do this!,法力值不足！)
+  end
+}
+trigger chat({string[spaces]} Zealots Contributed: {string[x]}) {
+  cancel
+  chat {msg}.replace(Zealots Contributed: ,末影战士击杀数：)
+  end
+}
+trigger chat(PET DROP! {string[x]}) {
+  cancel
+  chat {msg}.replace(PET DROP!,宠物掉落！).replace(Magic Find,魔法搜寻).replace(Enderman,末影人)
+  end
+}
+trigger chat({string[spaces]}Runecrafting Experience: {string[amount]}) {
+  cancel
+  chat {msg}.replace(Runecrafting Experience:,符文合成经验：)
+  end
+  trigger other{{titleText}} {
+  cancel
+  end
+}
+trigger chat(There was a problem when talking to the Skyblock service! Try this again in a moment.) {
+  cancel
+  chat {msg}.replace(There was a problem when talking to the Skyblock service! Try this again in a moment.,与空岛生存服务器联系时出现问题，请稍后再试。)
+  end
+}
+trigger chat(BONUS! Earn 20% more skill experience!) {
+  cancel
+  chat {msg}.replace(BONUS! ,奖励！).replace(Earn 20% more skill experience!,额外20%技能经验！)
+  end
+}
+trigger chat(You feel your Gift Compass pull towards a new location...) {
+  cancel
+  chat {msg}.replace(You feel your Gift Compass pull towards a new location...,你的礼物指南针指向了新的方向...)
+  end
+}
+
