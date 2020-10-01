@@ -34,3 +34,5 @@ SkyblockAddons v1.5.4 [下载](https://biscuit.codes/mods/skyblockaddons/downloa
 - 修复：服务器语言非英语时获取技能经验导致崩溃
 - 修复：NPC 位置与新大厅不对应（现在可以自动检测了）
 - 修复：Jumbo backpack 未被开启时显示没有空槽位
+
+Hypixel空岛生存 简体中文翻译包 [下载](/triggers.txt "下载") (beta)
