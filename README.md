@@ -2,7 +2,7 @@
 `所有为你而行的空幻梦想，都不及最后与你许下的愿望。`
 <!-- ![梦翔文海](http://user-assets.sxlcdn.com/images/493721/Fo3tNu__WxWq3wop-0cW2-P90UgA.png '梦翔文海') -->
 
-SkyblockAddons v1.5.4 [下载](https://biscuit.codes/mods/skyblockaddons/downloadversion/?v=1.5.4 "下载") (2020.09.21 发布)
+SkyblockAddons v1.5.4 [下载](https://biscuit.codes/mods/skyblockaddons/downloadversion/?v=1.5.4 "下载") (2020.09.21 发布) [Link2](https://github.com/BiscuitDevelopment/SkyblockAddons/releases/download/v1.5.4/SkyblockAddons-1.5.4-for-MC-1.8.9.jar "Link2")
 
 `v1.5.4 更新内容`
 
