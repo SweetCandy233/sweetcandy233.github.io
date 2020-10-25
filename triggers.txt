@@ -22,7 +22,7 @@ trigger chat(Welcome to Hypixel SkyBlock!) {
 }
 trigger chat(RARE DROP! {string[x]}) {
   cancel
-  chat {msg}.replace(RARE DROP!,稀有掉落！).replace(Summoning Eye,召唤之眼).replace(Enchanted Ender Pearl,附魔末影珍珠).replace(Magic Find,魔法搜寻).replace(Enchanted Eye of Ender,附魔末影之眼).replace(Enchanted Obsidian,附魔黑曜石).replace(Enchanted End Stone,附魔末地石).replace(Enchanted Bone,附魔骨头).replace(Enchanted Book,附魔书)
+  chat {msg}.replace(RARE DROP!,稀有掉落！).replace(Summoning Eye,召唤之眼).replace(Enchanted Ender Pearl,附魔末影珍珠).replace(Magic Find,魔法搜寻).replace(Enchanted Eye of Ender,附魔末影之眼).replace(Enchanted Obsidian,附魔黑曜石).replace(Enchanted End Stone,附魔末地石).replace(Enchanted Bone,附魔骨头).replace(Enchanted Book,附魔书).replace(Ender Crystal,末影水晶)
   end
 }
 trigger chat([Important] This server will restart soon: {string[x]}) {
@@ -37,7 +37,7 @@ trigger chat(There are blocks in the way!) {
 }
 trigger chat({string[spaces]}{string[x]} dealt the final blow.) {
   cancel
-  chat {msg}.replace({string[x]} dealt the final blow.,{string[x]}完成了最后一击。)
+  chat {msg}.replace({string[spaces]}{string[x]} dealt the final blow.,{string[x]} 完成了最后一击。)
   end
 }
 trigger chat(You can't use this while in combat!) {
@@ -80,12 +80,6 @@ trigger chat(Warping...) {
   chat {msg}.replace(Warping...,正在传送...)
   end
 }
-trigger onChat(all chat) {
-  if {msg}.contains(Candy__Sweet)
-    cancel
-    chat {msg}.replace(Candy__Sweet,Summertime_Gone*)
-  end
-}
 trigger chat({string[player]} healed you for {string[amount]} health!) {
   cancel
   chat {msg}.replace( healed you for {string[amount]} health!,为你回复了{string[amount]}点生命值！)
@@ -106,27 +100,18 @@ trigger chat(PET DROP! {string[x]}) {
   chat {msg}.replace(PET DROP!,宠物掉落！).replace(Magic Find,魔法搜寻).replace(Enderman,末影人)
   end
 }
-trigger chat({string[spaces]}Runecrafting Experience: {string[amount]}) {
-  cancel
-  chat {msg}.replace(Runecrafting Experience:,符文合成经验：)
-  end
-  trigger other{{titleText}} {
-  cancel
-  end
-}
 trigger chat(There was a problem when talking to the Skyblock service! Try this again in a moment.) {
   cancel
   chat {msg}.replace(There was a problem when talking to the Skyblock service! Try this again in a moment.,与空岛生存服务器联系时出现问题，请稍后再试。)
-  end
-}
-trigger chat(BONUS! Earn 20% more skill experience!) {
-  cancel
-  chat {msg}.replace(BONUS! ,奖励！).replace(Earn 20% more skill experience!,额外20%技能经验！)
   end
 }
 trigger chat(You feel your Gift Compass pull towards a new location...) {
   cancel
   chat {msg}.replace(You feel your Gift Compass pull towards a new location...,你的礼物指南针指向了新的方向...)
   end
+}
+trigger chat(GIFT! You found a White Gift! {string[x]}) {
+  cancel
+  chat {msg}.replace(GIFT!,礼物！).replace(You found a ,你找到了).replace(White Gift,白色礼物)
 }
 
