@@ -22,7 +22,7 @@ trigger chat(Welcome to Hypixel SkyBlock!) {
 }
 trigger chat(RARE DROP! {string[x]}) {
   cancel
-  chat {msg}.replace(RARE DROP!,稀有掉落！).replace(Summoning Eye,召唤之眼).replace(Enchanted Ender Pearl,附魔末影珍珠).replace(Magic Find,魔法搜寻).replace(Enchanted Eye of Ender,附魔末影之眼).replace(Enchanted Obsidian,附魔黑曜石).replace(Enchanted End Stone,附魔末地石).replace(Enchanted Bone,附魔骨头).replace(Enchanted Book,附魔书).replace(Ender Crystal,末影水晶)
+  chat {msg}.replace(RARE DROP!,稀有掉落！).replace(Summoning Eye,召唤之眼).replace(Enchanted Ender Pearl,附魔末影珍珠).replace(Magic Find,魔法搜寻).replace(Enchanted Eye of Ender,附魔末影之眼).replace(Enchanted Obsidian,附魔黑曜石).replace(Enchanted End Stone,附魔末地石).replace(Enchanted Bone,附魔骨头).replace(Enchanted Book,附魔书)
   end
 }
 trigger chat([Important] This server will restart soon: {string[x]}) {
@@ -110,8 +110,58 @@ trigger chat(You feel your Gift Compass pull towards a new location...) {
   chat {msg}.replace(You feel your Gift Compass pull towards a new location...,你的礼物指南针指向了新的方向...)
   end
 }
+trigger chat({string[spaces]}{string[x]} DOWN!) {
+  cancel
+  chat {msg}.replace(DOWN!,已被击败！)
+  end
+}
 trigger chat(GIFT! You found a White Gift! {string[x]}) {
   cancel
   chat {msg}.replace(GIFT!,礼物！).replace(You found a ,你找到了).replace(White Gift,白色礼物)
+  end
+}
+trigger chat(Your Blessing enchant got you double drops!) {
+  cancel
+  chat {msg}.replace(Your Blessing enchant got you double drops!,你的海之祝福附魔使你获得了双倍钓落！)
+  end
+}
+trigger chat(GOOD CATCH! You found a {string[x]}) {
+  cancel
+  chat {msg}.replace(GOOD CATCH!,稀有钓落！).replace(You found a ,你钓出了).replace(Music Disc,音乐唱片)
+  end
+}
+trigger chat(GOOD CATCH! You found {string[amount]} Coins.) {
+  cancel
+  chat {msg}.replace(GOOD CATCH!,稀有钓落！).replace(You found ,你钓出了)
+}
+trigger chat(You stumbled upon a {string[x]}) {
+  cancel
+  chat {msg}.replace(You stumbled upon a ,你遇上了一只正在巡逻的)
+  end
+}
+trigger chat(A {string[x]} appeared.) {
+  cancel
+  chat {msg}.replace(A ,一只).replace( appeared.,出现了。)
+  end
+}
+trigger chat(GREAT CATCH! You found a {string[x]}) {
+  cancel
+  chat {msg}.replace(GREAT CATCH!,超稀有钓落！).replace(You found a ,你钓出了)
+  end
+}
+trigger chat(You reeled in a {string[x]}) {
+  cancel
+  chat {msg}.replace(You reeled in a ,你钓起了一只).replace(Sea Archer,深海射手)
+  end
+}
+trigger chat(The {string[x]} has emerged.) {
+  cancel
+  chat {msg}.replace(The {string[x]} has emerged.,一只{string[x]}出现了。)
+  end
+}
+trigger chat(You caught a {string[x]}.) {
+  cancel
+  chat {msg}.replace(You caught a {string[x]},你钓上了一只{string[x]}。)
+  end
 }
 
