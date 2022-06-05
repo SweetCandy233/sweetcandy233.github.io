@@ -35,6 +35,19 @@
               /* CSS3 standard */
               opacity: 0.7;
             }
+			
+			a
+			{
+			  color:#FFFFFF
+			}
+			
+            a:hover
+			{
+			  color:#F00
+			}
+			
+			.div a{color:#FFFFFF}
+			.div a:hover{color:#090}
         </style>
     </head>
 
@@ -51,7 +64,7 @@
         </script>
 
         <center>
-        <div class="trans">真正的友谊不是形影不离般到朝朝暮暮，而是相隔天边、时过境迁却心意不变。</div>
+        <div class="trans"><font color=#71fc98>真正的友谊不是形影不离般到朝朝暮暮，而是相隔天边、时过境迁却心意不变。</font></div>
         <div class="transbox">
         <p>
         <span id=span_dt_dt></span>
@@ -72,7 +85,7 @@
                     e_minsold = (e_hrsold-hrsold)*60;
                     minsold = Math.floor((e_hrsold-hrsold)*60);
                     seconds = Math.floor((e_minsold-minsold)*60);
-                    span_dt_dt.innerHTML = "<center>距 2022 年 6 月高考还有<align=center><p><font color=#A22900 size=+3><p>"+daysold+" 天 "+hrsold+" 小时 "+minsold+" 分 "+seconds+" 秒 "+"<br></font><br></center>" ;
+                    span_dt_dt.innerHTML = "<center><font color=#71fc98>距 2022 年 6 月高考还有</font><align=center><p><font color=#A22900 size=+3><p>"+daysold+" 天 "+hrsold+" 小时 "+minsold+" 分 "+seconds+" 秒 "+"<br></font><br></center>" ;
                 }
                 show_date_time();
             </script>
