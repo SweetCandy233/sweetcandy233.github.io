@@ -39,7 +39,7 @@
     </head>
 
         
-    <body style="background-image: url('https://s3.ax1x.com/2020/12/27/rIAing.png'); background-size: cover;">
+    <body style="background-image: url('/assets/bg1.jpg'); background-size: cover;">
         
         <script type="text/javascript">    
             window.onblur = function() {
@@ -59,7 +59,7 @@
                 // Template provided by Unknown
                 function show_date_time() {
                     window.setTimeout("show_date_time()", 1000);
-                    BirthDay = new Date("06/07/2021 09:00:00");
+                    BirthDay = new Date("06/07/2022 09:00:00");
                     today = new Date();
                     timeold = (BirthDay.getTime()-today.getTime());
                     sectimeold = timeold/1000
@@ -72,7 +72,7 @@
                     e_minsold = (e_hrsold-hrsold)*60;
                     minsold = Math.floor((e_hrsold-hrsold)*60);
                     seconds = Math.floor((e_minsold-minsold)*60);
-                    span_dt_dt.innerHTML = "<center>距 2021 年 6 月高考还有<align=center><p><font color=#A22900 size=+3><p>"+daysold+" 天 "+hrsold+" 小时 "+minsold+" 分 "+seconds+" 秒 "+"<br></font><br></center>" ;
+                    span_dt_dt.innerHTML = "<center>距 2022 年 6 月高考还有<align=center><p><font color=#A22900 size=+3><p>"+daysold+" 天 "+hrsold+" 小时 "+minsold+" 分 "+seconds+" 秒 "+"<br></font><br></center>" ;
                 }
                 show_date_time();
             </script>
