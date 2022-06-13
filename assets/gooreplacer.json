@@ -1,0 +1,28 @@
+{
+  "createBy": "http://liujiacai.net/gooreplacer/",
+  "version": "3.13.0",
+  "createAt": "2022/6/13 12:00:40",
+  "redirect-rules": [
+    {
+      "src": "cdn.jsdelivr.net/npm/clipboard@2/dist/",
+      "kind": "wildcard",
+      "dst": "cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.11/",
+      "enable": true
+    },
+    {
+      "src": "themes.googleusercontent.com",
+      "kind": "wildcard",
+      "dst": "google-themes.proxy.ustclug.org",
+      "enable": true
+    },
+    {
+      "src": "ajax.googleapis.com",
+      "kind": "wildcard",
+      "dst": "ajax.proxy.ustclug.org",
+      "enable": true
+    }
+  ],
+  "cancel-rules": [],
+  "request-headers": [],
+  "response-headers": []
+}
