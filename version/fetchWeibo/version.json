@@ -1,7 +1,7 @@
 {
   "success": "true",
   "name": "fetchWeibo",
-  "version": "0.3.3",
-  "time": 1660140954,
-  "desc": "1.日志现在会在每次程序启动时重写"
+  "version": "0.3.4",
+  "time": 1660406293,
+  "desc": "1. 新增更新备用服务器"
 }
