@@ -1,7 +1,7 @@
 {
   "success": "true",
   "name": "fetchWeibo",
-  "version": "0.3.5",
-  "time": 1660464584,
-  "desc": "1. 修复多开检测问题"
+  "version": "0.3.6",
+  "time": 1673350783,
+  "desc": "1. 修复PowerShell脚本的换行问题\n2. json.load()改为使用json.loads()\n3. 输出日志更为详细\n4. 修复通知图标显示问题\n5. 移除日志中不应存在的\"AM/PM\"12小时制时间标识"
 }
