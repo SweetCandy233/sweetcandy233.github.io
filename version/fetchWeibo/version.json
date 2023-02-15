@@ -2,6 +2,6 @@
   "success": "true",
   "name": "fetchWeibo",
   "version": "0.3.6",
-  "time": 1676142318,
-  "desc": "[公告/Annoucement]\n 由于微博访客系统Sina Visitor System更新，导致此软件目前不可用。\n我们将尽快寻找解决方案，敬请关注后续更新。\nDue to an update to Sina Visitor System, the software is currently out of service.\nWe are looking for solutions, please be aware of future updates."
+  "time": 1673350783,
+  "desc": "1. 修复PowerShell脚本的换行问题\n2. json.load()改为使用json.loads()\n3. 输出日志更为详细\n4. 修复通知图标显示问题\n5. 移除日志中不应存在的\"AM/PM\"12小时制时间标识"
 }
